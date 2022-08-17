@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0 100px;
+    padding: 0;
+    
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.list{
+    list-style-type: none;
+}
+.list-item{
+    display: inline-block;
+    margin: 10px;
+    padding: 0 10px;
+    font-size: 20px ;
+    font-weight: bold;
+    font-family: "Orbitron";
+}
+
+.button-group{
+    display: flex;
+}
+
+.nav-button{
+    padding: 4px 40px;
+    font-size: 25px;
+    background-color: #fff;
+    border: solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.search-icon{
+    padding: 0 10px
+}
+
+.person-image{
+    position: absolute;
+    display: inline;
+    top: 155px;
+    left: 95px;
+}
+
+.square{
+    position: absolute;
+    display: inline;
+    top: 303px;
+    left: 150px;
+}
+
+.hero-container-right{
+    margin-top: 150px;
+    width: 60%;
+    float: right;
+    text-align: center;
+}
+
+.star{
+    position: relative;
+    top:40px;
+    left: 1100px;
+}
+.globe{
+    position: relative;
+    top:-20px;
+    left: 550px;
+}
+
+.hero-heading{
+    font-size: 3em;
+    font-family: "Orbitron"; 
+}
+
+.hero-description{
+    font-size: "Poppins";
+    width: 60%;
+    margin-left: 167px;
+}
+
+.button-email{
+    margin-top: 30px;
+    font-family: "Orbitron"; 
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 4px 25px;
+
+}
+
+.button-join{
+    font-family: "Orbitron";
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
